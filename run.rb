@@ -16,4 +16,8 @@ module Run
   def covered_in_another_node
     1
   end
+  
+  def another_not_covered
+    nil
+  end
 end
