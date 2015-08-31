@@ -16,4 +16,10 @@ module Run
   def covered_in_another_node
     1
   end
+
+  # :nocov:
+  def ignore_me
+    0
+  end
+  # :nocov:
 end
