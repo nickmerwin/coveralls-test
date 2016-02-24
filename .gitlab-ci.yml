@@ -4,4 +4,4 @@ before_script:
 
 rspec:
   script:
-    - COVERALLS_DEBUG=true bundle exec rspec
+    - COVERALLS_DEBUG=true COVERALLS_ENDPOINT=https://ce93d152.ngrok.io COVERALLS_REPO_TOKEN=TxIFh4oVfsWlLxT94TaHdGmDh01pR30fI bundle exec rspec
