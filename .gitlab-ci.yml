@@ -4,4 +4,4 @@ before_script:
 
 rspec:
   script:
-    - bundle exec rspec
+    - COVERALLS_DEBUG=true bundle exec rspec
