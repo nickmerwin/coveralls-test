@@ -1,5 +1,5 @@
 source 'https://rubygems.org'
 
-gem "coveralls", "0.8.2"
+gem "coveralls", github: 'lemurheavy/coveralls-ruby', branch: 'feature/gitlab'
 gem "rspec"
 gem "rake"
